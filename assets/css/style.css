@@ -23,7 +23,6 @@ header {
 .galeria{
     padding: 10px;
     display: flex;
-    /* width: 600px; */
     height: 630px;
 
 }
@@ -78,15 +77,8 @@ nav{
     flex-wrap: wrap;
     padding-bottom: 10px;
     margin: 1rem 0;
-    
-   
-    /* justify-content: space-between; */
 }
 .banner img{
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
-    /* flex-direction: row; */
     width: 100vw;  
     height: 50vh;
    
@@ -94,7 +86,6 @@ nav{
 
 .bannerSobre{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/img/batman-reading-comics.jpg);
-    /* height: 500px; */
     height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -211,7 +202,6 @@ nav{
     margin: 2rem auto;
     justify-content: center;  
     flex-wrap: wrap ;
-/* Esto de arriba es agregado */
 }
 
 .equipo{
@@ -248,21 +238,6 @@ nav{
     font-family: 'Notable', sans-serif;
 }
 
-/* .seleccionado {
-    width: 20%;
-    min-height: 260px;
-    background: rgba(194, 14, 14, 0.781);
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
-    text-align: center; 
-    border-radius: 5%;
-    box-shadow: 15px 15px 0px 0px rgba(9,46,9,1);
-    margin-inline-start: 22rem;
-   
-    margin-bottom: 1rem;
-} */
-
 .seleccionado {
     width: 20%;
     min-height: 260px;
@@ -274,7 +249,6 @@ nav{
     border-radius: 5%;
     box-shadow: 15px 15px 0px 0px rgba(9,46,9,1);
     margin-block-start:auto;
-    /* Esto esta cambiado, lo de abajo */
     margin-inline-start: 5rem;
     margin-inline-end: 5rem;
     margin-bottom: 1rem;
@@ -290,19 +264,16 @@ nav{
     margin-top: 5%;
     margin-bottom: 5%;
     margin-inline-start: 20%;
-    
 }
 
 .seleccionado h2{
     padding: 2rem;
     font-family: 'Notable', sans-serif;
-
 }
 
 .seleccionado h3{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .seleccionado p{
@@ -310,20 +281,6 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .container{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    line-height: 20px;
-    width: 95%;
-    margin: auto;
-    padding: 20px;
-    background-color: rgba(243, 48, 14, 0.87);
-    opacity: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-} */
 
 footer{
     background-color:rgb(0, 0, 0);
@@ -387,6 +344,7 @@ mix-blend-mode: multiply;
 
 }
 
+/* Pagina sucursales  */
 
  .mapas-flex{
     display: flex;
@@ -411,4 +369,10 @@ mix-blend-mode: multiply;
     font-size: 1rem;
     box-shadow: 0 0 10px #727272;
     cursor: url(../media/iconos/hombre-arana.png), pointer !important;
+}
+
+.mapa1:hover, .mapa2:hover, .mapa3:hover{
+    color:black;
+    background-color:rgba(245, 209, 209, 0.781);
+    text-shadow: 2px;
 }
